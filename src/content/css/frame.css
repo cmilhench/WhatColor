@@ -1,0 +1,28 @@
+body {
+  background-image: -webkit-linear-gradient(#2F373D, #2F373D);
+  background-position: right top;
+  background-size: 154px 100%;
+  background-repeat: repeat-y;
+  margin: 24px 18px 18px 18px;
+  margin-left: calc(100% - 136px);
+}
+body #hideTab {
+  display: block;
+  background-image: 
+  	url(../images/hide-global-arrow-visible.png), 
+  	url(../images/hide-global-tab.png);
+  background-position: 50%, 0;
+  background-size: 9px 15px, 20px 54px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 54px;
+  position: absolute;
+  right: 154px;
+  top: 32px;
+  width: 20px;
+}
+body #hideTab.closed {
+  background-image: 
+  	url(../images/hide-global-arrow-hidden.png), 
+  	url(../images/hide-global-tab.png);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <link href="css/frame.css" rel="stylesheet"></link>
+  	<script type="text/javascript" src="js/broadcast.js"></script>
+  	<script type="text/javascript" src="js/plugins.js"></script>
+  	<script type="text/javascript" src="js/frame.js"></script>
+  	<style>
+  	body {
+  		font-family: monospace;
+  	}
+  	ol {
+  		list-style: none;
+  		padding: 0;
+  		color: #fff;
+  	}
+  	ol li {
+  		clear: both;
+  		cursor: default;
+  	}
+  	ol li div {
+   		position: relative;
+   		float: left;
+  		display: inline-block;
+  		height: 1.1em;
+  		width: 1.1em;
+  		margin: 0 .5em 1em 1em;
+  		border: 1px solid #ccc;
+  	}
+  	ol li div:before {
+   		content: " ";
+   		position: absolute;
+			z-index: -1;
+			top: -3px;
+			left: -3px;
+			right: -3px;
+			bottom: -3px;
+  		border: 3px solid white;
+  		border-radius: 2px;
+  		box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.75);
+  	}
+  	</style>
+  </head>
+  <body>
+    <div id="hideTab"></div>
+    <ol id="colours"></ol>
+  </body>
+</html>

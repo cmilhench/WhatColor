@@ -1,0 +1,10 @@
+# OS (Mac OSX)
+.DS_store
+*/.DS_store
+
+# SublimeText project files
+*.sublime-workspace
+
+*.pem
+*.crx
+src/WhatColor.zip

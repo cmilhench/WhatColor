@@ -1,0 +1,18 @@
+iframe#tools {
+  border: none;
+  z-index: 2147483647 !important;
+  -webkit-user-select: none !important;
+	position: fixed !important;
+  height: 100%;
+  right: -154px;
+  top: 0;
+  transition: right .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 154px;
+}
+iframe#tools.hidable {
+  width: 172px;
+  right: -136px;
+}
+iframe#tools.visible {
+  right: 0;
+}
